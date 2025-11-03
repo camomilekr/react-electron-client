@@ -1,5 +1,5 @@
-# 스토어프로그램 electron 버전
-electron 을 사용한 스토어프로그램 앱
+# react electron client
+electron 을 사용한 client template
 
 ## Recommended IDE Setup
 
