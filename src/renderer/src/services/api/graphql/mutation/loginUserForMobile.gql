@@ -1,0 +1,19 @@
+mutation loginUserForMobile($data: LoginUserForMobileData!) {
+  loginUserForMobile(data: $data) {
+    userId
+    loginId
+    name
+    phone
+    role
+    accessToken
+    isPasswordChangeRequired
+    createdAt
+    userTermsAgreements {
+      termsAndPolicyType
+      isAgree
+      checkedAt
+      responseMethod
+    }
+    birthDate
+  }
+}

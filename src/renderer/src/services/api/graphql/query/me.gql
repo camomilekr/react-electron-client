@@ -1,0 +1,19 @@
+query me {
+  me {
+    userId
+    loginId
+    name
+    phone
+    role
+    accessToken
+    isPasswordChangeRequired
+    createdAt
+    userTermsAgreements {
+      termsAndPolicyType
+      isAgree
+      checkedAt
+      responseMethod
+    }
+    birthDate
+  }
+}

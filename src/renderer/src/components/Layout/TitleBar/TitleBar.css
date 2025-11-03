@@ -1,0 +1,13 @@
+.title-bar-left {
+  @apply flex items-center justify-center;
+  height: 40px;
+  user-select: none;
+  -webkit-user-select: none;
+  app-region: drag;
+  -webkit-app-region: drag;
+  background: linear-gradient(to right, #bd007e, #3f309c);
+}
+
+.title-bar-right {
+  background-image: linear-gradient(to right, #3f309c, #3f309c);
+}
